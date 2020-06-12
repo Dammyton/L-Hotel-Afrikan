@@ -677,12 +677,14 @@ body{
   .navbar-nav li{
     padding:0 10px;
     border-bottom: .3px solid rgba(255, 255, 255, 0.2);
+    text-transform: capitalize;
 }
 .navbar-nav li a{
 	font-size: 18px;
 	font-family: Arial;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: capitalize !important;
+  
 } 
 .navbar-nav li button{
     /* color: #602C21!important; */
