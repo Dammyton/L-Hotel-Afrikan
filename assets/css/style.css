@@ -697,11 +697,11 @@ body{
     border: none;
     outline: none;
     font-size: 18px;
-	font-family: Arial;
-  font-weight: 500;
-  text-transform: uppercase;
-  border-color: transparent;
-  text-transform: capitalize;
+	  font-family: Arial;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-color: transparent;
+    text-transform: capitalize;
 }
 
 }
@@ -718,9 +718,6 @@ body{
   color: white;
 }
 
-.bg-section {
-    background:	#8d4a4a;
-}
 
 .ft-contact h1 {
     color: #fff;
