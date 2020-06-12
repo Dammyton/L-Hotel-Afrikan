@@ -1158,12 +1158,12 @@ footer{
 
 
 /*reset*/
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Baskervville', serif;
-}
+} */
 
 .container-fluid {
   max-width: 1440px;
