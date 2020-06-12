@@ -681,7 +681,8 @@ body{
 .navbar-nav li a{
 	font-size: 18px;
 	font-family: Arial;
-	font-weight: 500;
+  font-weight: 500;
+  text-transform: capitalize;
 } 
 .navbar-nav li button{
     /* color: #602C21!important; */
@@ -698,6 +699,7 @@ body{
   font-weight: 500;
   text-transform: uppercase;
   border-color: transparent;
+  text-transform: capitalize;
 }
 
 }
@@ -1112,7 +1114,7 @@ footer{
 
 
 
-/* Facilities Page*/
+/* Top Facilities Page [by @Maramef*/
 
 
 
@@ -1135,9 +1137,372 @@ footer{
 }
 
 .bg_accent {
-	background-color: #602C21
+  background-color: #602C21;
+  padding:2%;
+  outline: none;
 }
 
 .text_accent {
 	color: #602C21;
 }
+
+
+
+
+
+
+
+
+
+/* BOTTOM FACILITIES PAGE by @amarachukwu */
+
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Baskervville', serif;
+}
+
+.container-fluid {
+  max-width: 1440px;
+  padding: 0 !important;
+}
+
+.section-container {
+  max-width: 1300px;
+}
+
+.section-container.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ht-btn {
+  font-family: 'Circular Std', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #602C21;
+  border: none;
+  line-height: 23px;
+  padding: 8px 25px;
+  font-weight: 500;
+}
+
+/*==========================
+Restaurant Section 
+============================*/
+.restaurant {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+
+.restaurant-text .title {
+  color: #333333;
+  font-size: 78px;
+  line-height: 89px;
+  font-weight: lighter;
+}
+
+.restaurant-text .text {
+  font-size: 24px;
+  color: #333333;
+  line-height: 147.4%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+/*=======================
+GROUPED SERVICES
+=========================*/
+
+.grouped-services {
+  background-image: linear-gradient(to right ,rgba(189, 189, 189, 0.308) 55%, #FFFFFF 50%);
+  width: 100%;
+  margin: 120px auto 0;
+  padding: 7% 0%;
+}
+
+
+/*=============================
+LAUNDRY
+===============================*/
+
+.grouped-services .laundry {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+.laundry-text .title {
+  color: #333333;
+  font-size: 60px;
+  line-height: 89px;
+  font-weight: lighter;
+}
+
+.laundry-text .text {
+  color: #333333;
+  font-size: 24px;
+  line-height: 147.4%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+/*======================
+HALL
+*======================*/
+
+.grouped-services .hall {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 170px;
+}
+
+.hall-text .title {
+  color: #333333;
+  font-size: 60px;
+  line-height: 89px;
+  font-weight: lighter; 
+}
+
+.hall-text .text {
+  color: #333333;
+  font-size: 24px;
+  line-height: 38px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hall .hall-img {
+  width: 100%;
+}
+
+
+/*======================
+INTERNET 
+========================*/
+
+.grouped-services .internet {
+  margin-top: 150px;
+  height: 450px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.internet .internet-text {
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 32%; 
+  padding: 60px 150px 60px 95px;
+  z-index: 1; 
+  align-self: center;
+  box-shadow: 1.01418px 5.07092px 30.4255px rgba(0, 0, 0, 0.12);
+}
+
+.internet-text .title {
+  color: #333333;
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: lighter;
+}
+
+.internet-text .text {
+  color: #333333;
+  font-size: 24px;
+  line-height: 145%;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+
+/*===================================
+CARE/BEAUTIFUL NIGHT SECTION STYLES
+=================================*/
+
+.care {
+  margin-top: 250px;
+}
+
+.care .care-title {
+  background-color: #602C21;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 11%;
+}
+
+.care-title .heading {
+  font-size: 76px;
+  line-height: 89px;
+  font-weight: lighter;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+.care .care-img {
+  background-image: url("assets/images/palm-trees-at-night-258154 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.care-img .heading {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  font-size: 118.808px;
+  line-height: 136px;
+  font-weight: lighter;
+  padding: 40% 10% 17%;
+}
+
+/* =========================
+MEDIA QUERY
+===========================*/
+
+@media only screen and (max-width: 1280px) {    
+  .care-title .heading {
+      font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 1195px) {
+  .care-title .heading {
+      font-size: 55px;
+  }
+
+  .internet .internet-text {
+      padding: 45px 68px;
+  }  
+}
+
+@media only screen and (max-width: 965px) {
+  .restaurant-text .title,
+  .laundry-text .title {
+      font-size: 65px;
+      margin-bottom: 0;
+  }
+
+  .restaurant-text .text,
+  .laundry-text .text {
+      font-size: 20px;
+      line-height: 145%;
+      margin-top: 0;
+      margin-bottom: 10px;
+  } 
+  
+  .hall-text .title {
+      font-size: 52px;
+      line-height: 55px;
+      margin-bottom: 0px;
+  }
+
+  .hall-text .text {
+      font-size: 19px;
+      line-height: 35px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .internet .internet-text {
+      padding: 45px 28px;
+  }
+
+  .internet-text .title {
+      font-size: 42px;
+      margin-bottom: 0px;
+  }
+
+  .internet-text .text {
+      font-size: 20px;
+      line-height: 145%;
+      margin-bottom: 10px;
+      margin-top: 10px;
+  }
+
+  
+  .care-title .heading {
+      font-size: 50px;
+  }
+}
+
+@media only screen and (max-width:905px) {
+  .care-title .heading {
+      font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .grouped-services {
+      background-image: linear-gradient(to right ,rgba(189, 189, 189, 0.308) 100%, #FFFFFF 0%);
+      padding-top: 5px;
+      padding-bottom: 0px;
+      margin-top: 120px;
+  }
+
+  .internet .internet-text {
+      top: 0;
+      width: 95%;
+  }
+
+  .care .care-title {
+      padding: 5%;
+  }
+  
+  .care-title .heading {
+      font-size: 34px;
+  }
+
+  .care-img .heading {
+      font-size: 80px;
+      line-height: 100px;
+  }
+  
+  .care {
+      margin-top: 120px;
+  }
+
+  .restaurant, 
+  .grouped-services .hall,
+  .grouped-services .internet {
+      margin-top: 100px;
+  }
+
+  .grouped-services .laundry {
+      margin-top: 50px;
+  }
+
+  .section-container.row {
+      margin-left: 1%;
+      margin-right: 1%;
+  }
+}
+
+@media only screen and (max-width: 584px) {
+  .care-title .heading {
+      font-size: 25px;
+  }    
+}
+
+@media only screen and (max-width: 500px) {
+  .care-img .heading {
+      font-size: 60px;
+      line-height: 80px;
+  }    
+}
+
+@media only screen and (max-width: 436px) {
+  .care-title .heading {
+      font-size: 20px;
+  } 
+
+  .restaurant-text .title {
+      font-size: 58px;
+      line-height: 79px;
+  }
+} 
+
