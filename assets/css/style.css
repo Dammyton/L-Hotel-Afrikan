@@ -1,21 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Init */
 
 
@@ -708,6 +690,7 @@ body{
     float: right;
     padding: 1%;
     line-height: 1.3;
+    border: none;
     outline: none;
     font-size: 18px;
 	font-family: Arial;
@@ -719,6 +702,7 @@ body{
 
 .navbar-toggler {
   background: rgba(170, 140, 134, 0.1);
+
 }
 
 .navbar-toggler-icon {
