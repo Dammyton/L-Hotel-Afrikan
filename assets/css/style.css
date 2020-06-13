@@ -1520,6 +1520,20 @@ MEDIA QUERY
   font-family: 'Montserrat', sans-serif;
 }
 
+p {
+  /* line-height: 1.7; */
+}
+
+
+
 .nav-item .nav-link {
   font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .buttontwo {
+    margin-top: -20%;
+  }
+
 }
