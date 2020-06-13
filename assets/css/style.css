@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
 /* Init */
 
 
@@ -1503,4 +1506,20 @@ MEDIA QUERY
       font-size: 58px;
       line-height: 79px;
   }
+}
+
+
+
+
+
+
+
+/* Style Overide */
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item .nav-link {
+  font-family: 'Montserrat', sans-serif;
 }
